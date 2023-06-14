@@ -1,0 +1,6 @@
+framework module Pods_Ambrose {
+  umbrella header "Pods-Ambrose-umbrella.h"
+
+  export *
+  module * { export * }
+}

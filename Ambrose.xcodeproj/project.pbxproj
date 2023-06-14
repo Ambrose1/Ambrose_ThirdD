@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		396863B38FF9CA5979588432 /* Pods_Ambrose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5811EE73949B160E3EDE2860 /* Pods_Ambrose.framework */; };
+		6CD2DB39D5AE14A5B0CA7389 /* Pods_Ambrose_AmbroseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882F08EB835EAA44CAF5CDFD /* Pods_Ambrose_AmbroseUITests.framework */; };
+		71F4ECC74D301CC1B5F908B6 /* Pods_AmbroseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E95C010ED6F0BF5AF6F2F9 /* Pods_AmbroseTests.framework */; };
+		C838183029EA735F00462AD6 /* AmbroseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838182F29EA735F00462AD6 /* AmbroseApp.swift */; };
+		C838183229EA735F00462AD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838183129EA735F00462AD6 /* ContentView.swift */; };
+		C838183429EA736000462AD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C838183329EA736000462AD6 /* Assets.xcassets */; };
+		C838183729EA736000462AD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C838183629EA736000462AD6 /* Preview Assets.xcassets */; };
+		C838184129EA736000462AD6 /* AmbroseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838184029EA736000462AD6 /* AmbroseTests.swift */; };
+		C838184B29EA736100462AD6 /* AmbroseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838184A29EA736100462AD6 /* AmbroseUITests.swift */; };
+		C838184D29EA736100462AD6 /* AmbroseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838184C29EA736100462AD6 /* AmbroseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C838183D29EA736000462AD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C838182429EA735F00462AD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C838182B29EA735F00462AD6;
+			remoteInfo = Ambrose;
+		};
+		C838184729EA736000462AD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C838182429EA735F00462AD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C838182B29EA735F00462AD6;
+			remoteInfo = Ambrose;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C67C550FC63B94987F00E1 /* Pods-Ambrose-AmbroseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ambrose-AmbroseUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ambrose-AmbroseUITests/Pods-Ambrose-AmbroseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5811EE73949B160E3EDE2860 /* Pods_Ambrose.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ambrose.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BBDA41DC26E12D59DD66A2 /* Pods-Ambrose.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ambrose.release.xcconfig"; path = "Target Support Files/Pods-Ambrose/Pods-Ambrose.release.xcconfig"; sourceTree = "<group>"; };
+		882F08EB835EAA44CAF5CDFD /* Pods_Ambrose_AmbroseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ambrose_AmbroseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6052AE50EE2F0028ADBD37 /* Pods-Ambrose-AmbroseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ambrose-AmbroseUITests.release.xcconfig"; path = "Target Support Files/Pods-Ambrose-AmbroseUITests/Pods-Ambrose-AmbroseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B5C4FDA95EDDE36F11390C28 /* Pods-Ambrose.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ambrose.debug.xcconfig"; path = "Target Support Files/Pods-Ambrose/Pods-Ambrose.debug.xcconfig"; sourceTree = "<group>"; };
+		C03CA65ADE1644B40520384A /* Pods-AmbroseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmbroseTests.debug.xcconfig"; path = "Target Support Files/Pods-AmbroseTests/Pods-AmbroseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C838182C29EA735F00462AD6 /* Ambrose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ambrose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C838182F29EA735F00462AD6 /* AmbroseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbroseApp.swift; sourceTree = "<group>"; };
+		C838183129EA735F00462AD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C838183329EA736000462AD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C838183629EA736000462AD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C838183C29EA736000462AD6 /* AmbroseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmbroseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C838184029EA736000462AD6 /* AmbroseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbroseTests.swift; sourceTree = "<group>"; };
+		C838184629EA736000462AD6 /* AmbroseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmbroseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C838184A29EA736100462AD6 /* AmbroseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbroseUITests.swift; sourceTree = "<group>"; };
+		C838184C29EA736100462AD6 /* AmbroseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbroseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC92545332B0B4FEB864BF09 /* Pods-AmbroseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmbroseTests.release.xcconfig"; path = "Target Support Files/Pods-AmbroseTests/Pods-AmbroseTests.release.xcconfig"; sourceTree = "<group>"; };
+		F3E95C010ED6F0BF5AF6F2F9 /* Pods_AmbroseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmbroseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C838182929EA735F00462AD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396863B38FF9CA5979588432 /* Pods_Ambrose.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C838183929EA736000462AD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F4ECC74D301CC1B5F908B6 /* Pods_AmbroseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C838184329EA736000462AD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD2DB39D5AE14A5B0CA7389 /* Pods_Ambrose_AmbroseUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95393C7F73567663287C8A6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5811EE73949B160E3EDE2860 /* Pods_Ambrose.framework */,
+				882F08EB835EAA44CAF5CDFD /* Pods_Ambrose_AmbroseUITests.framework */,
+				F3E95C010ED6F0BF5AF6F2F9 /* Pods_AmbroseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C838182329EA735F00462AD6 = {
+			isa = PBXGroup;
+			children = (
+				C838182E29EA735F00462AD6 /* Ambrose */,
+				C838183F29EA736000462AD6 /* AmbroseTests */,
+				C838184929EA736100462AD6 /* AmbroseUITests */,
+				C838182D29EA735F00462AD6 /* Products */,
+				F5C7B45BCFF3B284A83D2AD7 /* Pods */,
+				95393C7F73567663287C8A6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C838182D29EA735F00462AD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C838182C29EA735F00462AD6 /* Ambrose.app */,
+				C838183C29EA736000462AD6 /* AmbroseTests.xctest */,
+				C838184629EA736000462AD6 /* AmbroseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C838182E29EA735F00462AD6 /* Ambrose */ = {
+			isa = PBXGroup;
+			children = (
+				C838182F29EA735F00462AD6 /* AmbroseApp.swift */,
+				C838183129EA735F00462AD6 /* ContentView.swift */,
+				C838183329EA736000462AD6 /* Assets.xcassets */,
+				C838183529EA736000462AD6 /* Preview Content */,
+			);
+			path = Ambrose;
+			sourceTree = "<group>";
+		};
+		C838183529EA736000462AD6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C838183629EA736000462AD6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C838183F29EA736000462AD6 /* AmbroseTests */ = {
+			isa = PBXGroup;
+			children = (
+				C838184029EA736000462AD6 /* AmbroseTests.swift */,
+			);
+			path = AmbroseTests;
+			sourceTree = "<group>";
+		};
+		C838184929EA736100462AD6 /* AmbroseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C838184A29EA736100462AD6 /* AmbroseUITests.swift */,
+				C838184C29EA736100462AD6 /* AmbroseUITestsLaunchTests.swift */,
+			);
+			path = AmbroseUITests;
+			sourceTree = "<group>";
+		};
+		F5C7B45BCFF3B284A83D2AD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5C4FDA95EDDE36F11390C28 /* Pods-Ambrose.debug.xcconfig */,
+				67BBDA41DC26E12D59DD66A2 /* Pods-Ambrose.release.xcconfig */,
+				03C67C550FC63B94987F00E1 /* Pods-Ambrose-AmbroseUITests.debug.xcconfig */,
+				AC6052AE50EE2F0028ADBD37 /* Pods-Ambrose-AmbroseUITests.release.xcconfig */,
+				C03CA65ADE1644B40520384A /* Pods-AmbroseTests.debug.xcconfig */,
+				EC92545332B0B4FEB864BF09 /* Pods-AmbroseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C838182B29EA735F00462AD6 /* Ambrose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C838185029EA736100462AD6 /* Build configuration list for PBXNativeTarget "Ambrose" */;
+			buildPhases = (
+				65EB488B45EF41709FACF982 /* [CP] Check Pods Manifest.lock */,
+				C838182829EA735F00462AD6 /* Sources */,
+				C838182929EA735F00462AD6 /* Frameworks */,
+				C838182A29EA735F00462AD6 /* Resources */,
+				54BE47FB91D7ECF19121BE07 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ambrose;
+			productName = Ambrose;
+			productReference = C838182C29EA735F00462AD6 /* Ambrose.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C838183B29EA736000462AD6 /* AmbroseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C838185329EA736100462AD6 /* Build configuration list for PBXNativeTarget "AmbroseTests" */;
+			buildPhases = (
+				73EAF9FCF6E58DBE3E5B16AD /* [CP] Check Pods Manifest.lock */,
+				C838183829EA736000462AD6 /* Sources */,
+				C838183929EA736000462AD6 /* Frameworks */,
+				C838183A29EA736000462AD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C838183E29EA736000462AD6 /* PBXTargetDependency */,
+			);
+			name = AmbroseTests;
+			productName = AmbroseTests;
+			productReference = C838183C29EA736000462AD6 /* AmbroseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C838184529EA736000462AD6 /* AmbroseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C838185629EA736100462AD6 /* Build configuration list for PBXNativeTarget "AmbroseUITests" */;
+			buildPhases = (
+				0AEAFD1E6468C7F3889289E1 /* [CP] Check Pods Manifest.lock */,
+				C838184229EA736000462AD6 /* Sources */,
+				C838184329EA736000462AD6 /* Frameworks */,
+				C838184429EA736000462AD6 /* Resources */,
+				A30A2A02CD3378F7287D5DDD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C838184829EA736000462AD6 /* PBXTargetDependency */,
+			);
+			name = AmbroseUITests;
+			productName = AmbroseUITests;
+			productReference = C838184629EA736000462AD6 /* AmbroseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C838182429EA735F00462AD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C838182B29EA735F00462AD6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C838183B29EA736000462AD6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C838182B29EA735F00462AD6;
+					};
+					C838184529EA736000462AD6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C838182B29EA735F00462AD6;
+					};
+				};
+			};
+			buildConfigurationList = C838182729EA735F00462AD6 /* Build configuration list for PBXProject "Ambrose" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C838182329EA735F00462AD6;
+			productRefGroup = C838182D29EA735F00462AD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C838182B29EA735F00462AD6 /* Ambrose */,
+				C838183B29EA736000462AD6 /* AmbroseTests */,
+				C838184529EA736000462AD6 /* AmbroseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C838182A29EA735F00462AD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C838183729EA736000462AD6 /* Preview Assets.xcassets in Resources */,
+				C838183429EA736000462AD6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C838183A29EA736000462AD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C838184429EA736000462AD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AEAFD1E6468C7F3889289E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ambrose-AmbroseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54BE47FB91D7ECF19121BE07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ambrose/Pods-Ambrose-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ambrose/Pods-Ambrose-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ambrose/Pods-Ambrose-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65EB488B45EF41709FACF982 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ambrose-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73EAF9FCF6E58DBE3E5B16AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmbroseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A30A2A02CD3378F7287D5DDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ambrose-AmbroseUITests/Pods-Ambrose-AmbroseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ambrose-AmbroseUITests/Pods-Ambrose-AmbroseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ambrose-AmbroseUITests/Pods-Ambrose-AmbroseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C838182829EA735F00462AD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C838183229EA735F00462AD6 /* ContentView.swift in Sources */,
+				C838183029EA735F00462AD6 /* AmbroseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C838183829EA736000462AD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C838184129EA736000462AD6 /* AmbroseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C838184229EA736000462AD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C838184D29EA736100462AD6 /* AmbroseUITestsLaunchTests.swift in Sources */,
+				C838184B29EA736100462AD6 /* AmbroseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C838183E29EA736000462AD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C838182B29EA735F00462AD6 /* Ambrose */;
+			targetProxy = C838183D29EA736000462AD6 /* PBXContainerItemProxy */;
+		};
+		C838184829EA736000462AD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C838182B29EA735F00462AD6 /* Ambrose */;
+			targetProxy = C838184729EA736000462AD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C838184E29EA736100462AD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C838184F29EA736100462AD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C838185129EA736100462AD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5C4FDA95EDDE36F11390C28 /* Pods-Ambrose.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ambrose/Preview Content\"";
+				DEVELOPMENT_TEAM = Q9B2985YC8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AmbHomePage/AmbHomePage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AmbHomePage/AmbHomePage",
+				);
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amb.per.Ambrose;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C838185229EA736100462AD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67BBDA41DC26E12D59DD66A2 /* Pods-Ambrose.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ambrose/Preview Content\"";
+				DEVELOPMENT_TEAM = Q9B2985YC8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amb.per.Ambrose;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C838185429EA736100462AD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C03CA65ADE1644B40520384A /* Pods-AmbroseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9B2985YC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amb.per.AmbroseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ambrose.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ambrose";
+			};
+			name = Debug;
+		};
+		C838185529EA736100462AD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC92545332B0B4FEB864BF09 /* Pods-AmbroseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9B2985YC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amb.per.AmbroseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ambrose.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ambrose";
+			};
+			name = Release;
+		};
+		C838185729EA736100462AD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C67C550FC63B94987F00E1 /* Pods-Ambrose-AmbroseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9B2985YC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amb.per.AmbroseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ambrose;
+			};
+			name = Debug;
+		};
+		C838185829EA736100462AD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC6052AE50EE2F0028ADBD37 /* Pods-Ambrose-AmbroseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9B2985YC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amb.per.AmbroseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ambrose;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C838182729EA735F00462AD6 /* Build configuration list for PBXProject "Ambrose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C838184E29EA736100462AD6 /* Debug */,
+				C838184F29EA736100462AD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C838185029EA736100462AD6 /* Build configuration list for PBXNativeTarget "Ambrose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C838185129EA736100462AD6 /* Debug */,
+				C838185229EA736100462AD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C838185329EA736100462AD6 /* Build configuration list for PBXNativeTarget "AmbroseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C838185429EA736100462AD6 /* Debug */,
+				C838185529EA736100462AD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C838185629EA736100462AD6 /* Build configuration list for PBXNativeTarget "AmbroseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C838185729EA736100462AD6 /* Debug */,
+				C838185829EA736100462AD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C838182429EA735F00462AD6 /* Project object */;
+}

@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (5.7.1)
+  - AmbHomePage (0.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.4)
+  - AmbHomePage (from `./AmbHomePage/AmbHomePage.podspec`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  AmbHomePage:
+    :path: "./AmbHomePage/AmbHomePage.podspec"
+
+SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  AmbHomePage: b9a41a3890274a04487066a12b744b37882f633a
+
+PODFILE CHECKSUM: 5031bcfaec7ec953863b09d52d67ccbb54f75192
+
+COCOAPODS: 1.11.3
